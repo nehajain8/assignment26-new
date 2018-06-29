@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.ProductForm {
+  padding: 20px;
+  height: 270px;
+  border-radius: 5px;
+  display: flex;
+}
+form {
+  margin : 0 auto;
+}
+label {
+  text-align: left;
+}
+label,
+input {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.displayProducts {
+  margin : 0 auto;
+  max-width: 940px;
+}
+.wrapper {
+  display: flex;
+  padding: 20px 0;
+}
+.wrapper input {
+  width: auto;
+  margin-left: 15px;
+}
+button {
+  text-align: left;
+  background: blue;
+  color: white;
+  display: block;
+  margin-left: 15px;
+}
+.ProductList {
+  padding: 20px 40px;
+}
+.ProductItemContainer {
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.productEntered {
+  width: 570px;
+  text-align: left;
+  padding: 20px;
+}
+.productForm {
+  width: 350px;
+  background: mintcream;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.ProductItemContainer span {
+  display: block;
+}
+.ProductItemContainer span.blue {
+  background: blue;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.ProductItemContainer span.purple {
+  color: purple;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.statusWrapper {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.statusWrapper span {
+  display: inline;
+}
+.statusWrapper .statusValue {
+  background: green;
+  color: white;
+}
+.price {
+   padding: 10px;
+}
+.ProductTable {
+  border: 1px solid lightgray;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.ProductTable td,
+.ProductTable th{
+  border: 1px solid lightgray;
+}
